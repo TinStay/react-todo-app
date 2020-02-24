@@ -1,0 +1,44 @@
+
+
+.Todo{
+    /* background-color: rgb(200, 58, 125); */
+    background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 450px;
+    height: 60%;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+
+.task{
+    font-size: 23px;
+    padding: 10px;
+    /* width: 60%; */
+    color: whitesmoke;
+    float: inline-start;
+    cursor: pointer;
+}
+
+
+.line-through{
+    text-decoration: line-through;
+    color: #34495e;
+}
+
+
+
+
+.deleteBtn{
+    margin: 10px;
+    font-weight: 600;
+    float: inline-end;
+}
+
+.deleteBtn:hover{
+    color:black;
+}
+

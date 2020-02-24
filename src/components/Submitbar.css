@@ -1,0 +1,30 @@
+.Submitbar{
+    position: relative;
+    padding: 20px;
+}
+
+.input{
+    margin: 10px;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;  
+    border: none;
+}
+
+input[type="text"]
+{
+    font-size:20px;
+    
+}
+
+.Submitbtn{
+    margin: 10px;
+    font-size: 20px;
+    color:white;
+    height: 40px;
+    width: 90px;
+    background-color: #00b894;
+    border: none;
+    border-radius: 15px;
+}
+
