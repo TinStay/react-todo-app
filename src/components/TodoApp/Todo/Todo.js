@@ -12,6 +12,8 @@ const Todo = ( props ) =>{
       
     };
 
+    
+
     return(
         <div className='Todo'>   
                 <div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Todo from './Todo';
+import Todo from './Todo/Todo';
 import './Todos.css';
 
 const searchingFor = search =>{
@@ -38,5 +38,5 @@ class Todos extends Component{
 }
 
 
-export default Todos;
+export default React.memo(Todos);
 

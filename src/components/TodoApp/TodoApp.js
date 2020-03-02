@@ -1,10 +1,10 @@
-import React,{ Component } from 'react';
+import React,{ Component, PureComponent } from 'react';
 import Submitbar from '../Submitbar';
 import Todos from '../TodoApp/Todos';
-import Searchbar from './Searchbar';
+import Searchbar from './Searchbar/Searchbar';
 import { Button } from 'react-bootstrap';
 
-class TodoApp extends Component{
+class TodoApp extends PureComponent{
     state = {
         todos: [
           { text: "Do the laundary", isDone:false, id:'1'},
@@ -82,6 +82,8 @@ class TodoApp extends Component{
  
 
     render(){
+
+      
       
       let todos = null;
       let showButton = '';
